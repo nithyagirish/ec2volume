@@ -10,9 +10,9 @@
     - name: Volume creation
       ec2_vol:
         region: "us-west-2"
-        aws_access_key: "AKIA43FCT556UDAZXTVT"
-        aws_secret_key: "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"
-        instance: "i-0b821d26bc531d57b"
-        volume_size: "10"
+        aws_access_key: "awsaccesskey1"
+        aws_secret_key: "awssecretkey1"
+        instance: "instanceid"
+        volume_size: "volumesize1"
         device_name: "/dev/xvdf"
-        volume_type: "gp2"
+        volume_type: "volumetype1"
